@@ -1,0 +1,93 @@
+input {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border-color: #BDBDBD;
+  font-size: 15px; }
+
+input:focus {
+  border-color: #A9D0F5;
+  border-radius: 5px; }
+
+label {
+  font-size: 18px; }
+
+.row {
+  overflow: hidden;
+  width: 100%; }
+
+.col-1 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 5.33333%; }
+
+.col-2 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 13.66666%; }
+
+.col-3 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 21.99999%; }
+
+.col-4 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 30.33332%; }
+
+.col-5 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 38.66665%; }
+
+.col-6 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 46.99998%; }
+
+.col-7 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 55.33331%; }
+
+.col-8 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 63.66664%; }
+
+.col-9 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 71.99997%; }
+
+.col-10 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 80.3333%; }
+
+.col-11 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 88.66663%; }
+
+.col-12 {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 96.99996%; }
+
+.form-group {
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=template.css.map */

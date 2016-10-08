@@ -1,0 +1,26 @@
+@mixin col-width($col) {
+  float: left;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: $col * 8.33333% - 3%;
+}
+
+input{padding: 8px 10px;border-radius: 5px;border-color: #BDBDBD;font-size: 15px}
+input:focus {border-color: #A9D0F5;border-radius: 5px;}
+label{ font-size: 18px }
+
+.row{overflow: hidden;width: 100%}
+.col-1{  @include col-width(1);}
+.col-2{  @include col-width(2);}
+.col-3{  @include col-width(3);}
+.col-4{  @include col-width(4);}
+.col-5{  @include col-width(5);}
+.col-6{  @include col-width(6);}
+.col-7{  @include col-width(7);}
+.col-8{  @include col-width(8);}
+.col-9{  @include col-width(9);}
+.col-10{  @include col-width(10);}
+.col-11{  @include col-width(11);}
+.col-12{  @include col-width(12);}
+
+.form-group{ margin-bottom: 10px }
