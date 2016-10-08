@@ -1,0 +1,14 @@
+@mixin box-size {
+  width:200px;
+  height:200px;
+  padding:10px;
+  margin:0px;
+}
+
+@mixin border($width) {
+  border: $width solid #eee;
+}
+
+body {
+  @include box-size;
+}
