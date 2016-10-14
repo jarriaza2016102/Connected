@@ -12,11 +12,11 @@
             $('.tab-item').removeClass("selected");
             $(e).addClass("selected");
             if( id == 'login' ){
-                $('#'+id+"-tab").removeClass("hidden");
-                $('#register-tab').addClass("hidden");
+                $('#login-tab').show("slow");
+                $('#register-tab').hide("slow");
             } else {
-                $('#'+id+"-tab").removeClass("hidden");
-                $('#login-tab').addClass("hidden");
+                $('#login-tab').hide("slow");
+                $('#register-tab').show("slow");
             }
         }
     }

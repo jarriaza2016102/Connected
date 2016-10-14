@@ -1,10 +1,14 @@
 <?php
+function get_url(){
+    return 'http://localhost/connected/';
+}
+
 function get_head(){ ?>
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/template.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_url(); ?>assets/css/template.css">
+    <link rel="stylesheet" href="<?php echo get_url(); ?>assets/css/style.css">
 </head>
 
 <?php

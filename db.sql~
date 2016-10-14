@@ -152,7 +152,6 @@ BEGIN
 		VALUES ( @last_id, @fn_data_id, first_name );
 	INSERT INTO User_Data(user_id,data_id,value_) 
 		VALUES ( @last_id, @ln_data_id, last_name );
-	SELECT id,email,fullName,rol_id FROM Users WHERE id = @last_id;
 END $$
 DELIMITER ;
 

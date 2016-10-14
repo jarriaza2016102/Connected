@@ -10,8 +10,16 @@ html,body{
   font-weight: bold;
 }
 
+.body{
+  @extend .degraded;
+}
+
 .border-bottom{
   border-bottom: 1px solid black;
+}
+
+.button-sm{
+  padding: 10px 30px;
 }
 
 .content-17{
@@ -39,6 +47,11 @@ html,body{
 
 .display-block{
   display: block;
+}
+
+.float-center-imp{
+  float: none !important;
+  margin: auto !important;
 }
 
 .font-white{
@@ -76,9 +89,7 @@ html,body{
 }
 
 .home-container{
-  @extend .degraded;
   @extend .header-margin-top;
-  height: 100%;
 }
 
 .hidden{
@@ -138,4 +149,12 @@ html,body{
 .tab-item.selected{
   background: darkgray;
   width: 50%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
 }
